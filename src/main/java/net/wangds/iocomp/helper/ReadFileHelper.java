@@ -18,7 +18,7 @@ public final class ReadFileHelper {
      * @param is 输入流.
      * @return 数据.
      */
-    public byte[] readInputStream(InputStream is){
+    public static byte[] readInputStream(InputStream is){
         byte[] res = new byte[0];
         if(is==null){
             return res;
